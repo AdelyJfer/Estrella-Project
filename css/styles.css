@@ -1,0 +1,117 @@
+html{box-sizing: border-box; }*,*:before,*:after {box-sizing:inherit;}
+
+body {
+    margin: 0 auto;
+    
+}
+
+*{
+   
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    
+    /* background-color:grey; */
+    background-image:linear-gradient(rgba(0, 0, 0, 0.356) , rgba(0, 0, 0, 0.027)) ,url(../images/kyle-johnson-TEZZzuQTt8g-unsplash.jpg) ;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+ul{
+    list-style: none;
+    float: right;
+    margin-top: 30px;
+}
+ul li {
+
+    display: inline-block;
+}
+
+ul li a {
+
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5s ease;
+}
+
+ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.836);
+    color : black;
+}
+
+ul li.activate a{
+
+    background-color: rgba(255, 255, 255, 0.836);
+    color : black;
+
+
+}
+
+.logo img {
+
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+.main {
+
+    max-width: 1200px;
+    margin: auto;
+
+
+}
+
+.title{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.title h1 {
+
+    color: white;
+    font-size: 72px;
+}
+
+.button{
+
+    position: absolute;
+    
+    top: 65%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    height: auto;
+}
+.btn {
+
+    border: 1px solid white;
+    padding: 10px 30px ;
+    
+    color: white;
+    float: left;
+    margin: 5px;
+    
+}
+
+.btn:hover{
+
+    background-color: white;
+    color: black;
+}
+
+.button .btn a {
+
+    text-decoration: none;
+    
+
+}
